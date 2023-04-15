@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(fon.jpg);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    background-repeat: no-repeat;
+    
+    /* background: #bdebbdd8; */
+    color: hsl(0, 78%, 2%);
+}
+
+
+a {
+    color: rgb(30, 93, 151);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(170, 160, 22);
+}
+
+/* a:visited {
+    color: green;
+} */
+
+.sobaka {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 14px  rgb(68, 68, 99);
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.info {
+    margin-bottom: 30px;
+    display: flex;
+  }
+
+  .info-text {
+      margin-left: 50px;
+  }
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    color: black
+}  
+
+.info-text h2 {
+    margin-bottom: 10px;
+}
+
+ @media (max-width: 777px) {
+     .info {
+         display: block;
+         text-align: center;
+     }
+ }
+ 
+ .card {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.bg-lilac {
+   
+    background: #beb3e4;
+}
+
+.bg-green {
+    background: #78b47d;
+}
+
+.bg-blue {
+    background: #90abdd;
+}
+
+.btn {
+    background: rgb(61, 34, 12);
+    padding: 12px 30px;
+    color: rgb(48, 165, 33);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+  
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.list {
+    padding: 0 28px;
+}
+
+.list li {
+    color:rgb(48, 25, 63);
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 95%; 
+}
+
+.table td {
+    padding-bottom: 8px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgb(78, 74, 139)
+}
+
+.form {
+   text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 19px;
+    color: rgb(44, 35, 35);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  box-sizing: border;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(80, 57, 39);
+  padding: 10px 0 10px;
+  font-family: inherit;
+  outline: none;
+}
